@@ -1,31 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Flex-Grid iFrames</title>
+    <title>Full Screen Robot Image</title>
     <style>
-        body, html, div {
+        body, html {
+            height: 100%;
             margin: 0;
-            padding: 0;
+        }
+        
+        img {
+            display: block;
             height: 100%;
             width: 100%;
-        }
-        div {
-            display: flex;
-            flex-direction: row;
-            height: 100%;
-        }
-        iframe {
-            flex: 1;
-            height: 100%;
-            border: none;
+            object-fit: cover;
+            object-position: center;
         }
     </style>
 </head>
 <body>
-    <div>
-        <iframe src="https://cloudwatch.amazonaws.com/dashboard.html?dashboard=Syndi&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTgyNzU2MTA2NDU1MCIsIlUiOiJ1cy1lYXN0LTFfdm9zRERzRWxJIiwiQyI6Ijc4OHRjbGU1aGgxY2FwMWVnb3FiZGtjOGhiIiwiSSI6InVzLWVhc3QtMTozM2Y4NDcwYS1lYWE5LTRjN2EtOTg4Zi0wODJkOGE3ZTVjODciLCJPIjoiYXJuOmF3czppYW06OjgyNzU2MTA2NDU1MDpyb2xlL3NlcnZpY2Utcm9sZS9DV0RCU2hhcmluZy1SZWFkT25seUFjY2Vzcy1KQzJLRjk4NSIsIk0iOiJVc3JQd1NpbmdsZSJ9"></iframe>
-        <iframe src="https://insights.hotjar.com/sites/2728482/playbacks?segment=-8&sort_by=-relevance_score"></iframe>
-        <iframe src="https://syndi.cloud/"></iframe>
-    </div>
+    <img src="https://images.unsplash.com/photo-1581093244110-5b9ef4f8a7bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1080&q=80" alt="Robot Image">
 </body>
 </html>
