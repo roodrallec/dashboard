@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-header {
+    text-align: center;
+    padding: 2rem 0;
+    background: #f4f4f4;
+}
+
+.home-header h1 {
+    margin: 0;
+}
+
+.home-header p {
+    font-size: 1.2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    background: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about, .services, .portfolio, .contact {
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.services ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services ul li {
+    padding: 0.5rem 0;
+}
+
+.services ul li i {
+    margin-right: 0.5rem;
+    color: #333;
+}
+
+.portfolio .project {
+    margin-bottom: 1.5rem;
+}
+
+.portfolio .project h3 {
+    margin: 0;
+}
+
+.portfolio .project h3 a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact p {
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
