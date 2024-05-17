@@ -93,3 +93,33 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+.testimonials {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 1rem;
+}
+
+.testimonial {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: white;
+    display: inline-block;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    margin: 0.5rem 0;
+}
+
+.testimonial strong {
+    display: block;
+    margin-top: 0.5rem;
+}
